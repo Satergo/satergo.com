@@ -1,6 +1,6 @@
 {
-	"version": "0.0.1",
-	"versionCode": 1,
-	"dateReleased": "2021-12-19",
-	"changelog": ""
+	"version": "0.0.2",
+	"versionCode": 2,
+	"dateReleased": "2021-12-31",
+	"changelog": "- Sending from derived addresses\n- Balance includes derived addresses\n- Update checking and installing for embedded node\n- Improved embedded node log\n- Transaction affordance checks\n- Embedded font\n- Suggested remote node (for beginners)\n- Copy and remove icons\n- Adding derived address of specific index\n- Updated translations"
 }
