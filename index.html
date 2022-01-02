@@ -6,7 +6,21 @@
 		<style>
 		body {
 			font-family: sans-serif;
-			padding: 2vh 7vw;
+			margin: 0;
+		}
+		nav, main, footer {
+			padding-left: 8vw;
+			padding-right: 8vw;
+		}
+		nav {
+			background-color: rgb(36, 36, 36);
+			color: white;
+			padding-top: 0.8em;
+			padding-bottom: 0.8em;
+		}
+		#title {
+			font-size: 2em;
+			font-weight: bold;
 		}
 		h1 {
 			margin-bottom: 0.4rem;
@@ -25,46 +39,60 @@
 			padding-right: 3em;
 		}
 		footer {
+			margin-top: 1em;
 			font-style: italic;
 			font-size: 0.8em;
-			margin-top: 8em;
+			padding-top: 0.4em;
+			padding-bottom: 0.4em;
+		}
+		.blackbtn {
+			cursor: pointer;
+			background-color: black;
+			color: white;
+			font-size: 0.8em;
+			border-radius: 3px;
+			text-decoration: none;
+			padding: 1px 2px;
 		}
 		</style>
 	</head>
 	<body>
-		<h1>Satergo Wallet for Ergo</h1>
+		<nav>
+			<span id="title">Satergo Wallet for Ergo</span>
+		</nav>
 
-		<h2 id="downloads">Downloads</h2>
-		Version: 0.0.2, released: Dec 31st, 2021.<br><br>
-		Portable runtimes (extract everything and execute the run file):
-		<table border="0" id="downloads-table">
-			<tr>
-				<th scope="col">Platform</th>
-				<th scope="col">Link</th>
-			</tr>
-			<tr>
-				<td>Windows 64-bit (x64)</td>
-				<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-windows-x64.zip">Download</a></td>
-			</tr>
-			<tr>
-				<td>Linux 64-bit (x64)</td>
-				<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-linux-x64.zip">Download</a></td>
-			</tr>
-			<tr>
-				<td>Linux 64-bit (aarch64)</td>
-				<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-linux-aarch64.zip">Download</a></td>
-			</tr>
-			<tr>
-				<td>macOS 64-bit (intel)</td>
-				<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-mac-x64.zip">Download</a></td>
-			</tr>
-			<tr>
-				<td>macOS 64-bit (aarch64)</td>
-				<td>Excluded due to stability issues. Use the intel version instead.</td>
-			</tr>
-		</table>
+		<main>
+			<h2 id="downloads">Downloads</h2>
+			Version: 0.0.2, released: Dec 31st, 2021.<br><br>
+			Portable runtimes (extract everything and execute the run file):
+			<table border="0" id="downloads-table">
+				<tr>
+					<th scope="col">Platform</th>
+					<th scope="col">Link</th>
+				</tr>
+				<tr>
+					<td>Windows 64-bit (x64)</td>
+					<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-windows-x64.zip">Download</a></td>
+				</tr>
+				<tr>
+					<td>Linux 64-bit (x64)</td>
+					<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-linux-x64.zip">Download</a></td>
+				</tr>
+				<tr>
+					<td>Linux 64-bit (aarch64)</td>
+					<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-linux-aarch64.zip">Download</a></td>
+				</tr>
+				<tr>
+					<td>macOS 64-bit (intel)</td>
+					<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.2/Satergo-v0.0.2-mac-x64.zip">Download</a></td>
+				</tr>
+				<tr>
+					<td>macOS 64-bit (aarch64)</td>
+					<td>Excluded due to stability issues. Use the intel version instead.</td>
+				</tr>
+			</table>
 
-		<pre>
+			<pre>
 		Changelog:
 - Sending from derived addresses
 - Balance includes derived addresses
@@ -76,27 +104,43 @@
 - Copy and remove icons
 - Adding derived address of specific index
 - Updated translations
-		</pre>
+			</pre>
 
-		<h2>Source code</h2>
-		<a href="https://github.com/Satergo/Satergo">The source code is available at GitHub.</a>
+			<h2>Source code</h2>
+			<a href="https://github.com/Satergo/Satergo">The source code is available at GitHub.</a>
 
-		<h2>Information</h2>
-		<a href="https://github.com/Satergo/Satergo#readme">Check out the README.</a>
+			<h2>Information</h2>
+			<a href="https://github.com/Satergo/Satergo#readme">Check out the README.</a>
 
-		<h2>Communication</h2>
-		<a href="https://t.me/SatergoWallet">Join the Telegram chat.</a>
-		
-		<h2>Donate</h2>
-		<ul>
-			<li>Ergo: <a href="ergo:9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho</a> <a href="https://explorer.ergoplatform.com/en/addresses/9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">(explorer)</a></li>
-			<li>Monero: <a href="monero:82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH</a></li>
-			<li>Bitcoin: <a href="bitcoin:bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us</a> <a href="https://mempool.space/address/bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">(explorer)</a></li>
-		</ul>
+			<h2>Communication</h2>
+			<a href="https://t.me/SatergoWallet">Join the Telegram chat.</a>
 
-		<h2>To do list/Progress</h2>
-		<a href="https://github.com/Satergo/Satergo/projects/1?fullscreen=true">View the board.</a>
+			<h2>Donate</h2>
+			<ul>
+				<li>Ergo: <a href="ergo:9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho</a> <a class="blackbtn" data-copy="9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">copy</a> <a class="blackbtn" target="_blank" rel="noreferrer nofollow" href="https://explorer.ergoplatform.com/en/addresses/9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">explorer</a></li>
+				<li>Monero: <a href="monero:82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH</a> <a class="blackbtn" data-copy="82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">copy</a></li>
+				<li>Bitcoin: <a href="bitcoin:bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us</a> <a class="blackbtn" data-copy="bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">copy</a> <a class="blackbtn" rel="noreferrer nofollow" href="https://mempool.space/address/bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">explorer</a></li>
+			</ul>
+
+			<h2>To do list / Progress</h2>
+			<a href="https://github.com/Satergo/Satergo/projects/1?fullscreen=true">View the board.</a>
+
+		</main>
 
 		<footer>Copyright &copy; 2021 - 2022 Satergo</footer>
+		<script>
+			window.addEventListener("click", function (e) {
+				if (e.target.hasAttribute("data-copy")) {
+				console.log(e.target.getAttribute("data-copy"));
+					var textarea = document.createElement("textarea");
+					textarea.value = e.target.getAttribute("data-copy");
+					document.body.appendChild(textarea);
+					textarea.select();
+					document.execCommand("copy");
+					document.body.removeChild(textarea);
+					e.preventDefault();
+				}
+			});
+		</script>
 	</body>
 </html>
