@@ -1,6 +1,6 @@
 {
-	"version": "0.0.2",
-	"versionCode": 2,
-	"dateReleased": "2021-12-31",
-	"changelog": "- Sending from derived addresses\n- Balance includes derived addresses\n- Update checking and installing for embedded node\n- Improved embedded node log\n- Transaction affordance checks\n- Embedded font\n- Suggested remote node (for beginners)\n- Copy and remove icons\n- Adding derived address of specific index\n- Updated translations"
+	"version": "0.0.3",
+	"versionCode": 3,
+	"dateReleased": "2022-06-22",
+	"changelog": "Changelog:\n\n- Program is 50% smaller\n- Node operations (setting API key & public address, opening .conf file, unlocking, setting public address)\n- Transaction history (for finished ones)\n- Setting to require password for sending\n- Selecting which addresses to send from\n- Price chart (24h, 7d, 30d, 90d, 1y, Max)\n- Optimized selection from multiple addresses\n- Selecting change address\n- More tasks are done in the background to not freeze the UI\n- Token icons\n- Navigation bar\n- Content adapts to window width\n- Keyboard navigation on mnemonic repetition\n- Improved node downloader\n- Fixed issue where adding multiple entries of the same token in one transaction was allowed (but broken)"
 }

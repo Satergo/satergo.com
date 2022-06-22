@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Satergo</title>
-		<meta name="description" content="The desktop wallet for the cryptocurrency Ergo.">
-		<style>
+<head>
+	<title>Satergo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The desktop wallet for the Ergo cryptocurrency.">
+	<style>
 		body {
 			font-family: sans-serif;
 			margin: 0;
@@ -55,44 +56,65 @@
 			padding: 1px 2px;
 		}
 		</style>
-	</head>
-	<body>
-		<nav>
-			<span id="title">Satergo Wallet for Ergo</span>
-		</nav>
+</head>
+<body>
+<nav>
+	<span id="title">Satergo Wallet for Ergo</span>
+</nav>
 
-		<main>
-			<h2 id="downloads">Downloads</h2>
-			Version: 0.0.2, released: Dec 31st, 2021. *hotfix June 10th, 2022 to fix recently broken node downloading<br><br>
-			Portable runtimes (extract everything and execute the run file):
-			<table border="0" id="downloads-table">
-				<tr>
-					<th scope="col">Platform</th>
-					<th scope="col">Link</th>
-				</tr>
-				<tr>
-					<td>Windows 64-bit (x64)</td>
-					<td><a href="https://github.com/satsen/satergo-hotfix-0.0.2/releases/download/v0.0.2-hotfix/Satergo-v0.0.2-windows-x64.zip">Download</a></td>
-				</tr>
-				<tr>
-					<td>Linux 64-bit (x64)</td>
-					<td><a href="https://github.com/satsen/satergo-hotfix-0.0.2/releases/download/v0.0.2-hotfix/Satergo-v0.0.2-linux-x64.zip">Download</a></td>
-				</tr>
-				<tr>
-					<td>Linux 64-bit (aarch64)</td>
-					<td><a href="https://github.com/satsen/satergo-hotfix-0.0.2/releases/download/v0.0.2-hotfix/Satergo-v0.0.2-linux-aarch64.zip">Download</a></td>
-				</tr>
-				<tr>
-					<td>macOS 64-bit (intel)</td>
-					<td><a href="https://github.com/satsen/satergo-hotfix-0.0.2/releases/download/v0.0.2-hotfix/Satergo-v0.0.2-mac-x64.zip">Download</a></td>
-				</tr>
-				<tr>
-					<td>macOS 64-bit (aarch64)</td>
-					<td>Excluded due to stability issues. Use the intel version instead.</td>
-				</tr>
-			</table>
+<main>
+	<h2 id="downloads">Downloads</h2>
+	Version: 0.0.3, released: 22 June, 2022.<br><br>
+	Portable runtimes (extract everything and execute the run file):
+	<table border="0" id="downloads-table">
+		<tr>
+			<th scope="col">Platform</th>
+			<th scope="col">Link</th>
+		</tr>
+		<tr>
+			<td>Windows 64-bit (x64)</td>
+			<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.3/Satergo-v0.0.3-windows-x64.zip">Download</a></td>
+		</tr>
+		<tr>
+			<td>Linux 64-bit (x64)</td>
+			<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.3/Satergo-v0.0.3-linux-x64.zip">Download</a></td>
+		</tr>
+		<tr>
+			<td>Linux 64-bit (aarch64)</td>
+			<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.3/Satergo-v0.0.3-linux-aarch64.zip">Download</a></td>
+		</tr>
+		<tr>
+			<td>macOS 64-bit (intel & aarch64)</td>
+			<td><a href="https://github.com/Satergo/Satergo/releases/download/v0.0.3/Satergo-v0.0.3-mac-x64.zip">Download</a></td>
+		</tr>
+	</table>
 
-			<pre>
+	<br>
+
+	<details open>
+		<summary>Changelog for v0.0.3</summary>
+		<ul>
+			<li>Program is 50% smaller</li>
+			<li>Node operations (setting API key & public address, opening .conf file, unlocking, setting public address)</li>
+			<li>Transaction history (for finished ones)</li>
+			<li>Setting to require password for sending</li>
+			<li>Selecting which addresses to send from</li>
+			<li>Price chart (24h, 7d, 30d, 90d, 1y, Max)</li>
+			<li>Optimized selection from multiple addresses</li>
+			<li>Selecting change address</li>
+			<li>More tasks are done in the background to not freeze the UI</li>
+			<li>Token icons</li>
+			<li>Navigation bar</li>
+			<li>Content adapts to window width</li>
+			<li>Keyboard navigation on mnemonic repetition</li>
+			<li>Improved node downloader</li>
+			<li>Fixed issue where adding multiple entries of the same token in one transaction was allowed (but broken)</li>
+		</ul>
+	</details>
+
+	<details>
+		<summary>Changelog for v0.0.2</summary>
+		<pre>
 		Changelog:
 - Sending from derived addresses
 - Balance includes derived addresses
@@ -105,30 +127,31 @@
 - Adding derived address of specific index
 - Updated translations
 			</pre>
+	</details>
 
-			<h2>Source code</h2>
-			<a href="https://github.com/Satergo/Satergo">The source code is available at GitHub.</a>
+	<h2>Source code</h2>
+	<a href="https://github.com/Satergo/Satergo">The source code is available at GitHub.</a>
 
-			<h2>Information</h2>
-			<a href="https://github.com/Satergo/Satergo#readme">Check out the README.</a>
+	<h2>Information</h2>
+	<a href="https://github.com/Satergo/Satergo#readme">Check out the README.</a>
 
-			<h2>Communication</h2>
-			<a href="https://t.me/SatergoWallet">Join the Telegram chat.</a>
+	<h2>Community</h2>
+	<a href="https://t.me/SatergoWallet">Join the Telegram chat.</a>
 
-			<h2>Donate</h2>
-			<ul>
-				<li>Ergo: <a href="ergo:9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho</a> <a class="blackbtn" data-copy="9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">copy</a> <a class="blackbtn" target="_blank" rel="noreferrer nofollow" href="https://explorer.ergoplatform.com/en/addresses/9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">explorer</a></li>
-				<li>Monero: <a href="monero:82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH</a> <a class="blackbtn" data-copy="82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">copy</a></li>
-				<li>Bitcoin: <a href="bitcoin:bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us</a> <a class="blackbtn" data-copy="bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">copy</a> <a class="blackbtn" target="_blank" rel="noreferrer nofollow" href="https://mempool.space/address/bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">explorer</a></li>
-			</ul>
+	<h2>Donate</h2>
+	<ul>
+		<li>Ergo: <a href="ergo:9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho</a> <a class="blackbtn" data-copy="9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">copy</a> <a class="blackbtn" target="_blank" rel="noreferrer nofollow" href="https://explorer.ergoplatform.com/en/addresses/9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">explorer</a></li>
+		<li>Monero: <a href="monero:82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH</a> <a class="blackbtn" data-copy="82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">copy</a></li>
+		<li>Bitcoin: <a href="bitcoin:bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us</a> <a class="blackbtn" data-copy="bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">copy</a> <a class="blackbtn" target="_blank" rel="noreferrer nofollow" href="https://mempool.space/address/bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">explorer</a></li>
+	</ul>
 
-			<h2>To do list / Progress</h2>
-			<a href="https://github.com/Satergo/Satergo/projects/1?fullscreen=true">View the board.</a>
+	<h2>To do list / Progress</h2>
+	<a href="https://github.com/Satergo/Satergo/projects/1?fullscreen=true">View the board.</a> (outdated at the moment)
 
-		</main>
+</main>
 
-		<footer>Copyright &copy; 2021 - 2022 Satergo</footer>
-		<script>
+<footer>Website copyright &copy; 2021 - 2022 Satergo</footer>
+<script>
 			window.addEventListener("click", function (e) {
 				if (e.target.hasAttribute("data-copy")) {
 				console.log(e.target.getAttribute("data-copy"));
@@ -142,5 +165,5 @@
 				}
 			});
 		</script>
-	</body>
+</body>
 </html>
