@@ -20,15 +20,9 @@ function Modal({ setOpenModal }) {
     <div className="modalBackground">
       <div className="modalContainer">
         <div className="titleCloseBtn">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
+          <button onClick={() => setOpenModal(false)}>X</button>
         </div>
-        <div className="title" >
+        <div className="title">
           <h1 className="text-color-primary">Donate</h1>
         </div>
         
@@ -36,7 +30,7 @@ function Modal({ setOpenModal }) {
           <p>~ Ergo: 9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho</p><a href="https://explorer.ergoplatform.com/en/addresses/9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">Explorer</a><a href={() => false} data-copy="9gMnqf29LPxos2Lk5Lt6SkTmbWYL1d5QFHygbf6zRXDgL4KtAho">copy</a>
         </div>
 
-          <div className="body">
+        <div className="body">
           <p>~ Monero: 82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH </p><a href={() => false} data-copy="82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">copy</a>
         </div>
 
@@ -45,14 +39,7 @@ function Modal({ setOpenModal }) {
 
         </div>
         <div className="footer">
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-            id="cancelBtn"
-          >
-            Close
-          </button>
+          <button onClick={() => setOpenModal(false)} id="cancelBtn">Close</button>
         </div>
       </div>
     </div>

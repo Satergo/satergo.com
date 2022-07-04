@@ -69,11 +69,11 @@ const FeaturesSplit = ({
                 Secure, Independent, Invaluable:
                   </div>
                 <h3 className="mt-0 mb-12">
-                Everything is encrypted and stored on your disk
+                The only wallet with support for running a full node
                   </h3>
                   <p className="m-0">
-                  Host your own node if you want to and contribute to the Ergo network or use a public node
-                        </p>
+                  	Etiher contribute to the Ergo network or use a remote node
+                  </p>
               </div>
               <div className={
                 classNames(
@@ -82,8 +82,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/satergo_nodes.png')}
-                  alt="Satergo Nodes"
+                  src={require('./../../assets/images/node_setup.png')}
+                  alt="Node setup"
                   width={528}
                   height={396} />
               </div>
@@ -95,10 +95,11 @@ const FeaturesSplit = ({
                 Portable, Fully featured, Light:
                   </div>
                 <h3 className="mt-0 mb-12">
-                Has many features but is still easy to use
+                Has many features but is still light and easy to use
                   </h3>
                 <p className="m-0">
-                Usable in slow or portable operating system environments, does not depend on any other software being installed                  </p>
+				  Usable in slow or portable environments and does not depend on any other software
+			    </p>
               </div>
               <div className={
                 classNames(
@@ -123,8 +124,7 @@ const FeaturesSplit = ({
                 Supports all major desktop platforms
                   </h3>
                 <p className="m-0">
-                You can be sure about what runs on your computer
-                  </p>
+                </p>
               </div>
               <div className={
                 classNames(
@@ -133,8 +133,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/first_page.png')}
-                  alt="Wallet Creation"
+                  src={require('./../../assets/images/wallet_setup.png')}
+                  alt="Wallet setup"
                   width={528}
                   height={396} />
               </div>

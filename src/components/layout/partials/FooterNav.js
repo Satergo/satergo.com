@@ -21,13 +21,13 @@ const FooterNav = ({
         <a href="https://t.me/SatergoWallet">Telegram</a>
         </li>
         <li>
-        <a href="https://github.com/Satergo/Satergo#readme">Informations</a>
+        <a href="https://github.com/Satergo/Satergo#readme">Information</a>
         </li>
         <li>
           <a href='https://github.com/Satergo'>Github</a>
         </li>
         <li>
-         <a href='https://github.com/Satergo/Satergo/projects/1?fullscreen=true'>To Do list</a>
+         <a href='https://github.com/Satergo/Satergo/projects/1?fullscreen=true'>To do list</a>
         </li>
       </ul>
     </nav>

@@ -23,8 +23,6 @@ const Hero = ({
   ...props
 }) => {
 
-
-
   const outerClasses = classNames(
     'hero section center-content',
     topOuterDivider && 'has-top-divider',
@@ -53,17 +51,17 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Desktop wallet for the Ergo cryptocurrency with embedded node functionality.
-                </p>
+                The desktop wallet for the Ergo cryptocurrency, with embedded node functionality.
+              </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://t.me/SatergoWallet">
                     Telegram
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/Satergo">
-                    Source Code
+                    Source code
                     </Button>
-                    <Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/satergo.com/changelog.txt">
+                    <Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/satergo.com/CHANGELOG.md">
                     Changelog
                     </Button>
                 </ButtonGroup>

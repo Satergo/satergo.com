@@ -109,28 +109,12 @@ const Header = ({
                     isActive && 'is-active'
                   )}>
                 <div className="header-nav-inner">
-                  <ul className={
-                    classNames(
-                      'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                    <li>
-                    <a href="https://github.com/Satergo/Satergo#readme">Informations</a>
-                    </li>
+                  <ul className="list-reset header-nav-right">
+                    <a href={() => false} className="button button-primary button-wide-mobile button-sm" onClick={() => { setModalOpen(true); }}>
+                      Donate
+                    </a>
+                    {modalOpen && <Modal setOpenModal={setModalOpen} />}
                   </ul>
-                  
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-               <a href={() => false} className="button button-primary button-wide-mobile button-sm" onClick={() => {
-          setModalOpen(true);
-        }}
-      >
-        Donate
-      </a>
-
-      {modalOpen && <Modal setOpenModal={setModalOpen} />}
-                    </ul>
                 </div>
               </nav>
             </>}
