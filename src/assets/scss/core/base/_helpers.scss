@@ -22,15 +22,15 @@
 
 // Text alignment
 .ta-l {
-  text-align: left;
+	text-align: left;
 }
 
 .ta-c {
-  text-align: center;
+	text-align: center;
 }
 
 .ta-r {
-  text-align: right;
+	text-align: right;
 }
 
 // Font weight
@@ -134,21 +134,21 @@ img.has-shadow {
 
 // Dividers
 .has-top-divider {
-    @include divider(before);
+	@include divider(before);
 }
 
 .has-bottom-divider {
-    @include divider(after);
+	@include divider(after);
 }
 
 .invert-color {
 
 	.has-top-divider {
-	    @include divider(before, inverse);
+		@include divider(before, inverse);
 	}
 
 	.has-bottom-divider {
-	    @include divider(after, inverse);
+		@include divider(after, inverse);
 	}
 }
 
@@ -184,7 +184,7 @@ img.has-shadow {
 		left: 0;
 		width: 100%;
 		height: 100%;
-    }
+	}
 }
 
 // Spacing, margin

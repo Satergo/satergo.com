@@ -56,7 +56,7 @@ $button-sm--padding-h:			24px;		// button (small), left and right padding
 $button-w-form--padding-h:		24px;		// button, left and right padding in a form group (.form-group) - Overrides button default padding
 $button-sm-w-form--padding-h:	null;		// button (small), left and right padding in a form group (.form-group) - Overrides button default padding
 $button--radius: 				2px;		// button radius (never use null)
-$button--transform: 			null;	    // button text-transform property (null is allowed)
+$button--transform: 			null;		// button text-transform property (null is allowed)
 $button--max-size-mobile: 		280px;		// button max width on mobile (.button-wide-mobile)
 $button-group-padding: 			16px;		// padding between sibling buttons (nested into .button-group)
 $button-loading--thickness:		2px;		// button loading spinner, stroke width (.button.is-loading)
@@ -66,12 +66,12 @@ $form--color: (
 	input: 						get-color(dark, 1),
 	input-placeholder:		 	get-color(light, 2),
 	label: 						get-color(light, 3),
-    check-radio: 				get-color(light, 2),
+	check-radio: 				get-color(light, 2),
 	// ↓ Inverted colors
 	input-inverse: 				get-color(dark, 3),
 	input-placeholder-inverse:	null,
 	label-inverse: 				get-color(dark, 3),
-    check-radio-inverse: 		get-color(dark, 3) 
+	check-radio-inverse: 		get-color(dark, 3) 
 );
 
 // Forms: background color
@@ -81,18 +81,18 @@ $form--bg: (
 	input-disabled: 				get-color(dark, 3),
 	check-radio-checked: 			get-color(primary, 1),
 	switch:							get-color(dark, 3),
-    switch-checked:					get-color(primary, 1),
-    range-track:                    get-color(light, 2),
-    range-thumb:                    get-color(primary, 1),    
+	switch-checked:					get-color(primary, 1),
+	range-track:					get-color(light, 2),
+	range-thumb:					get-color(primary, 1),	
 	// ↓ Inverted colors
 	input-inverse: 					null,
 	input-focus-inverse: 			null,
 	input-disabled-inverse: 		darken(get-color(light, 1), 4%),
 	check-radio-checked-inverse:	null,
 	switch-inverse:					null,
-    switch-checked-inverse:			null,
-    range-track-inverse:            null,
-    range-thumb-inverse:            null
+	switch-checked-inverse:			null,
+	range-track-inverse:			null,
+	range-thumb-inverse:			null
 );
 
 // Forms: border color
@@ -110,11 +110,11 @@ $form--border: (
 
 // Forms: background color
 $form--icon: (
-    select-arrow:			get-color(light, 1),
-    range:                  get-color(light, 1),
+	select-arrow:			get-color(light, 1),
+	range:					get-color(light, 1),
 	// ↓ Inverted colors
-    select-arrow-inverse:	get-color(dark, 3),
-    range-inverse:          get-color(light, 1)
+	select-arrow-inverse:	get-color(dark, 3),
+	range-inverse:			get-color(light, 1)
 );
 
 // Forms: font size
@@ -136,8 +136,8 @@ $form--weight: (
 $form--padding-h: 	 16px;		// form, inner left and right padding
 $form-sm--padding-h: 12px;		// form (small), inner left and right padding
 $form--radius: 		 0;			// form radius (never use null)
-$form-hint--margin:  8px;		// .form-hint top margin
-$range-thumb-size:   36px;      // .form-slider, thumb size
+$form-hint--margin:	 8px;		// .form-hint top margin
+$range-thumb-size:	 36px;		// .form-slider, thumb size
 
 // Don't change lines below!
 // Push $button--* and $form--* values

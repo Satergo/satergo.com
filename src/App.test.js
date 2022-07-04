@@ -7,12 +7,12 @@ import App from './App';
 const history = createMemoryHistory();
 
 it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(
-    <Router history={history}>
-      <App />
-    </Router>,
-    div
-  );
-  ReactDOM.unmountComponentAtNode(div);
+	const div = document.createElement('div');
+	ReactDOM.render(
+		<Router history={history}>
+			<App />
+		</Router>,
+		div
+	);
+	ReactDOM.unmountComponentAtNode(div);
 });

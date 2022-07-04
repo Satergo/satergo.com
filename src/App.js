@@ -12,24 +12,24 @@ import Home from './views/Home';
 
 const App = () => {
 
-  const childRef = useRef();
-  let location = useLocation();
+	const childRef = useRef();
+	let location = useLocation();
 
-  useEffect(() => {
-    document.body.classList.add('is-loaded')
-    childRef.current.init();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [location]);
+	useEffect(() => {
+		document.body.classList.add('is-loaded')
+		childRef.current.init();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, [location]);
 
-  return (
-    <ScrollReveal
-      ref={childRef}
-      children={() => (
-        <Switch>
-          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-        </Switch>
-      )} />
-  );
+	return (
+		<ScrollReveal
+			ref={childRef}
+			children={() => (
+				<Switch>
+					<AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+				</Switch>
+			)} />
+	);
 }
 
 export default App;
