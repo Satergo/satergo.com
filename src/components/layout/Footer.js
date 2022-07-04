@@ -43,15 +43,18 @@ const Footer = ({
 						<Logo />
 						<FooterSocial />
 					</div>
-					<div className="footer-bottom space-between text-xxs invert-order-desktop">
-						<FooterNav />
-						<div className="footer-copyright">Satergo Website</div>
-					</div>
 				</div>
 			</div>
 		</footer>
 	);
 }
+
+/*
+					<div className="footer-bottom space-between text-xxs invert-order-desktop">
+						<FooterNav />
+						<div className="footer-copyright">Satergo Website</div>
+					</div>
+*/
 
 Footer.propTypes = propTypes;
 Footer.defaultProps = defaultProps;
