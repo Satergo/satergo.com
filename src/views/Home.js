@@ -7,13 +7,13 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 
 const Home = () => {
 
-  return (
-    <>
-      <Hero className="illustration-section-01" />
-      <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-    </>
-  );
+	return (
+		<>
+			<Hero className="illustration-section-01" />
+			<FeaturesTiles />
+			<FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+		</>
+	);
 }
 
 export default Home;
