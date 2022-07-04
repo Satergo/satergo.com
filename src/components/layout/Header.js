@@ -4,15 +4,13 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import Modal from '../elements/Modal';
 
-
-
 const propTypes = {
 	navPosition: PropTypes.string,
 	hideNav: PropTypes.bool,
 	hideSignin: PropTypes.bool,
 	bottomOuterDivider: PropTypes.bool,
 	bottomDivider: PropTypes.bool
-}
+};
 
 const defaultProps = {
 	navPosition: '',
@@ -20,7 +18,7 @@ const defaultProps = {
 	hideSignin: false,
 	bottomOuterDivider: false,
 	bottomDivider: false
-}
+};
 
 const Header = ({
 	className,
@@ -38,7 +36,7 @@ const Header = ({
 	const hamburger = useRef(null);
 
 	useEffect(() => {
-		isActive && openMenu();
+		if (isActive) openMenu();
 		document.addEventListener('keydown', keyPress);
 		document.addEventListener('click', clickOutside);
 		return () => {
@@ -58,17 +56,17 @@ const Header = ({
 		document.body.classList.remove('off-nav-is-active');
 		nav.current && (nav.current.style.maxHeight = null);
 		setIsactive(false);
-	}
+	};
 
 	const keyPress = (e) => {
-		isActive && e.keyCode === 27 && closeMenu();
-	}
+		if (isActive && e.keyCode === 27) closeMenu();
+	};
 
 	const clickOutside = (e) => {
-		if (!nav.current) return
+		if (!nav.current) return;
 		if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
 		closeMenu();
-	}	
+	};
 
 	const classes = classNames(
 		'site-header',
@@ -91,11 +89,7 @@ const Header = ({
 					<Logo />
 					{!hideNav &&
 						<>
-							<button
-								ref={hamburger}
-								className="header-nav-toggle"
-								onClick={isActive ? closeMenu : openMenu}
-							>
+							<button ref={hamburger} className="header-nav-toggle" onClick={isActive ? closeMenu : openMenu}>
 								<span className="screen-reader">Menu</span>
 								<span className="hamburger">
 									<span className="hamburger-inner"></span>
@@ -110,9 +104,9 @@ const Header = ({
 									)}>
 								<div className="header-nav-inner">
 									<ul className="list-reset header-nav-right">
-										<a href={() => false} className="button button-primary button-wide-mobile button-sm" onClick={() => { setModalOpen(true); }}>
+										<button className="button button-primary button-wide-mobile button-sm" onClick={() => setModalOpen(true)}>
 											Donate
-										</a>
+										</button>
 										{modalOpen && <Modal setOpenModal={setModalOpen} />}
 									</ul>
 								</div>
@@ -122,7 +116,7 @@ const Header = ({
 			</div>
 		</header>
 	);
-}
+};
 
 Header.propTypes = propTypes;
 Header.defaultProps = defaultProps;

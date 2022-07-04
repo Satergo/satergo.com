@@ -1,7 +1,7 @@
 import React from 'react';
 // import sections
 import Hero from '../components/sections/Hero';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
+import DownloadsTiles from '../components/sections/DownloadsTiles';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 
 
@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<>
 			<Hero className="illustration-section-01" />
-			<FeaturesTiles />
+			<DownloadsTiles />
 			<FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
 		</>
 	);
