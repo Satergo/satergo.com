@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../src/assets/scss/theme/elements/_modal.scss";
+import "../../../src/assets/scss/core/elements/_modal.scss";
 
 window.addEventListener("click", function (e) {
 	if (e.target.hasAttribute("data-copy")) {
