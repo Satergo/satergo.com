@@ -150,3 +150,28 @@
 		height: $header-height__desktop;
 	}
 }
+
+.title > h1 {
+  margin-top: 0;
+}
+
+.donation-row {
+	margin: 0.4em 0;
+}
+
+.donation-row:first-of-type {
+	margin-top: 0;
+}
+
+.donation-row:last-of-type {
+	margin-bottom: 0;
+}
+
+.donation-address {
+	display: inline-block;
+	max-width: 30vw;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+}

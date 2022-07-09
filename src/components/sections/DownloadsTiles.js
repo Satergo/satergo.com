@@ -2,7 +2,10 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+
+import { ReactComponent as WindowsLogo } from '../../assets/images/windows.svg';
+import { ReactComponent as LinuxLogo } from '../../assets/images/linux.svg';
+import { ReactComponent as AppleLogo } from '../../assets/images/apple.svg';
 
 const propTypes = {
 	...SectionTilesProps.types
@@ -62,8 +65,7 @@ const DownloadsTiles = ({
 							<div className="tiles-item-inner">
 								<div className="downloads-tiles-item-header mb-16">
 									<div>
-										<Image
-											src={require('./../../assets/images/windows.svg')}
+										<WindowsLogo
 											alt="Windows logo"
 											width={64}
 											height={64} />
@@ -82,8 +84,7 @@ const DownloadsTiles = ({
 							<div className="tiles-item-inner">
 								<div className="downloads-tiles-item-header">
 									<div className="downloads-tiles-item-image mb-16">
-										<Image
-											src={require('./../../assets/images/linux.svg')}
+										<LinuxLogo
 											alt="Linux logo"
 											width={64}
 											height={64} />
@@ -102,8 +103,7 @@ const DownloadsTiles = ({
 							<div className="tiles-item-inner">
 								<div className="downloads-tiles-item-header">
 									<div className="downloads-tiles-item-image mb-16">
-										<Image
-											src={require('./../../assets/images/linux.svg')}
+										<LinuxLogo
 											alt="Linux logo"
 											width={64}
 											height={64} />
@@ -122,8 +122,7 @@ const DownloadsTiles = ({
 							<div className="tiles-item-inner">
 								<div className="downloads-tiles-item-header mb-16">
 									<div>
-										<Image
-											src={require('./../../assets/images/apple.svg')}
+										<AppleLogo
 											alt="Apple logo"
 											width={64}
 											height={64} />
