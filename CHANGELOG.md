@@ -17,16 +17,16 @@
 
 <details>
 	<summary><h1 style="display: inline;">v0.0.2</h1></summary>
-	<ul>
-		<li>Sending from derived addresses</li>
-		<li>Balance includes derived addresses</li>
-		<li>Update checking and installing for embedded node</li>
-		<li>Improved embedded node log</li>
-		<li>Transaction affordance checks</li>
-		<li>Embedded font</li>
-		<li>Suggested remote node (for beginners)</li>
-		<li>Copy and remove icons</li>
-		<li>Adding derived address of specific index</li>
-		<li>Updated translations</li>
-	</ul>
+
+- Sending from derived addresses
+- Balance includes derived addresses
+- Update checking and installing for embedded node
+- Improved embedded node log
+- Transaction affordance checks
+- Embedded font
+- Suggested remote node (for beginners)
+- Copy and remove icons
+- Adding derived address of specific index
+- Updated translations
+
 </details>

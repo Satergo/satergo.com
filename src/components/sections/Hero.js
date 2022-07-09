@@ -61,7 +61,7 @@ const Hero = ({
 									<Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/Satergo">
 										Source code
 										</Button>
-										<Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/satergo.com/CHANGELOG.md">
+										<Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/satergo.com/blob/master/CHANGELOG.md#readme">
 										Changelog
 										</Button>
 								</ButtonGroup>
