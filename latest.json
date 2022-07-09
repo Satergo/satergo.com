@@ -1,0 +1,6 @@
+{
+	"version": "0.0.3",
+	"versionCode": 3,
+	"dateReleased": "2022-06-22",
+	"changelog": "Changelog:\n\n- Program is 50% smaller\n- Node operations (setting API key & public address, opening .conf file, unlocking, setting public address)\n- Transaction history (for finished ones)\n- Setting to require password for sending\n- Selecting which addresses to send from\n- Price chart (24h, 7d, 30d, 90d, 1y, Max)\n- Optimized selection from multiple addresses\n- Selecting change address\n- More tasks are done in the background to not freeze the UI\n- Token icons\n- Navigation bar\n- Content adapts to window width\n- Keyboard navigation on mnemonic repetition\n- Improved node downloader\n- Fixed issue where adding multiple entries of the same token in one transaction was allowed (but broken)"
+}
