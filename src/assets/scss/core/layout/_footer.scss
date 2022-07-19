@@ -81,7 +81,7 @@
 	}
 }
 
-.footer-social,
+.footer-links,
 .footer-nav {
 
 	a {
@@ -98,19 +98,19 @@
 	}
 }
 
-.footer-social {
+.footer-links {
 
 	ul {
-		margin-right: -($footer-social--inner-padding + $footer-social--outer-padding-h);
-		margin-left: -($footer-social--inner-padding + $footer-social--outer-padding-h);
+		margin-right: -($footer-links--inner-padding + $footer-links--outer-padding-h);
+		margin-left: -($footer-links--inner-padding + $footer-links--outer-padding-h);
 	}
 
 	li {
-		padding: 0 $footer-social--outer-padding-h;
+		padding: 0 $footer-links--outer-padding-h;
 	}
 
 	a {
-		padding: $footer-social--inner-padding;
+		padding: $footer-links--inner-padding;
 
 		svg {
 			fill: color-icon(social);

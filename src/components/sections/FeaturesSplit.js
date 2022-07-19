@@ -72,7 +72,7 @@ const FeaturesSplit = ({
 								The only wallet with support for running a full node
 									</h3>
 									<p className="m-0">
-										Etiher contribute to the Ergo network or use a remote node
+										Either contribute to the Ergo network or use a remote node
 									</p>
 							</div>
 							<div className={
