@@ -11,7 +11,6 @@
 <details>
 	<summary><h1 style="display: inline;">v0.0.3</h1></summary>
 
-# v0.0.3
 - Program is 50% smaller
 - Node operations (setting API key & public address, opening .conf file, unlocking)
 - Transaction history (for finished ones)
@@ -27,7 +26,7 @@
 - Keyboard navigation on mnemonic repetition
 - Improved node downloader
 - Fixed issue where adding multiple entries of the same token in one transaction was allowed (but broken)
-- </details>
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v0.0.2</h1></summary>
@@ -42,5 +41,4 @@
 - Copy and remove icons
 - Adding derived address of specific index
 - Updated translations
-
 </details>
