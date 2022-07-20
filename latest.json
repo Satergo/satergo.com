@@ -1,6 +1,6 @@
 {
-	"version": "0.0.3",
-	"versionCode": 3,
-	"dateReleased": "2022-06-22",
-	"changelog": "Changelog:\n\n- Program is 50% smaller\n- Node operations (setting API key & public address, opening .conf file, unlocking, setting public address)\n- Transaction history (for finished ones)\n- Setting to require password for sending\n- Selecting which addresses to send from\n- Price chart (24h, 7d, 30d, 90d, 1y, Max)\n- Optimized selection from multiple addresses\n- Selecting change address\n- More tasks are done in the background to not freeze the UI\n- Token icons\n- Navigation bar\n- Content adapts to window width\n- Keyboard navigation on mnemonic repetition\n- Improved node downloader\n- Fixed issue where adding multiple entries of the same token in one transaction was allowed (but broken)"
+	"version": "1.4.0",
+	"versionCode": 4,
+	"dateReleased": "2022-07-20",
+	"changelog": "Changelog:\n\n- Added offline mode to manage addresses, the mnemonic and the password\n- Chart excludes incorrect CoinGecko data from before mainnet started\n- Sync progress now shows block progress after headers finish syncing\n- Chart matches your theme\n- Fixed file permissions in the downloads\n- Node overview shows amount of connected peers\n- Changes to node updater\n- Skipped version to 1.4.0 to clarify that the program is stable"
 }
