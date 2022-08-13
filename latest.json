@@ -1,6 +1,6 @@
 {
-	"version": "1.4.0",
-	"versionCode": 4,
-	"dateReleased": "2022-07-20",
-	"changelog": "- Added offline mode to manage addresses, the mnemonic and the password\n- Chart excludes incorrect CoinGecko data from before mainnet started\n- Sync progress now shows block progress after headers finish syncing\n- Chart matches your theme\n- Fixed file permissions in the downloads\n- Node overview shows amount of connected peers\n- Changes to node updater\n- Skipped version to 1.4.0 to clarify that the program is stable"
+	"version": "1.4.1",
+	"versionCode": 5,
+	"dateReleased": "2022-08-13",
+	"changelog": "- Fixed node updating on Windows\n- Sending is now properly disallowed until the node has synced\n- Added a Fetch IP button to the \"Set public address\" node shortcut\n- Fixed renaming addresses\n- Improved node updater: now shows a progress bar and writes to the log when finished\n- Fixed \"Change API key\" and \"Set public address\" node shortcuts\n- Fixed issue with transacting from non-master addresses\n- Fixed that some data stopped updating after node restart\n- Localized date formats\n- Added Portuguese translation"
 }
