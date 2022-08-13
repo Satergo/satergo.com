@@ -1,4 +1,25 @@
-# v1.4.0
+# v1.4.1
+- Fixed node updating on Windows
+- Sending is now properly disallowed until the node has synced
+- Added a Fetch IP button to the "Set public address" node shortcut
+- Fixed renaming addresses
+- Improved node updater: now shows a progress bar and writes to the log when finished
+- Fixed "Change API key" and "Set public address" node shortcuts
+- Fixed issue with transacting from non-master addresses
+- Fixed that some data stopped updating after node restart
+- Localized date formats
+- Added Portuguese translation
+
+#### Less important changes:
+- Removed unnecessary prompt for when multiple node JARs are found in an already known setup
+- Fixed handling of specially-crafted tokens with null decimal amount
+- Explorer API can now be changed from system properties (`satergo.mainnetExplorerApi`)
+- "Set public address" correctly writes IPv6 addresses (even though the node does not support reading them yet, [pull request](https://github.com/ergoplatform/ergo/pull/1806) submitted)
+- Fixed transacting on testnet
+
+<details>
+	<summary><h1 style="display: inline;">v1.4.0</h1></summary>
+
 - Added offline mode to manage addresses, the mnemonic and the password
 - Chart excludes incorrect CoinGecko data from before mainnet started
 - Sync progress now shows block progress after headers finish syncing
@@ -7,6 +28,8 @@
 - Node overview shows amount of connected peers
 - Changes to node updater
 - Skipped version to 1.4.0 to clarify that the program is stable
+
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v0.0.3</h1></summary>
