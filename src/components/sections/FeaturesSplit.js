@@ -82,7 +82,7 @@ const FeaturesSplit = ({
 								)}
 								data-reveal-container=".split-item">
 								<Image
-									src={require('./../../assets/images/node_setup.png')}
+									src={require('./../../assets/images/node_overview.png')}
 									alt="Node setup"
 									width={528}
 									height={396} />
@@ -108,7 +108,7 @@ const FeaturesSplit = ({
 								)}
 								data-reveal-container=".split-item">
 								<Image
-									src={require('./../../assets/images/wallet_ui.png')}
+									src={require('./../../assets/images/account.png')}
 									alt="Wallet UI"
 									width={528}
 									height={396} />
@@ -133,13 +133,12 @@ const FeaturesSplit = ({
 								)}
 								data-reveal-container=".split-item">
 								<Image
-									src={require('./../../assets/images/wallet_setup.png')}
+									src={require('./../../assets/images/start.png')}
 									alt="Wallet setup"
 									width={528}
 									height={396} />
 							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>

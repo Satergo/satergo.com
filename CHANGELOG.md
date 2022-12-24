@@ -1,3 +1,7 @@
+# v1.5.1
+- Small but important fixes
+- Small design improvements
+
 # v1.5.0
 - Completely remade design (thanks to Nadi)
 - Completely remade design (this is big enough to be mentioned twice)
