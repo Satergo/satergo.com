@@ -1,6 +1,6 @@
 {
-	"version": "1.4.1",
-	"versionCode": 5,
-	"dateReleased": "2022-08-13",
-	"changelog": "- Fixed node updating on Windows\n- Sending is now properly disallowed until the node has synced\n- Added a Fetch IP button to the \"Set public address\" node shortcut\n- Fixed renaming addresses\n- Improved node updater: now shows a progress bar and writes to the log when finished\n- Fixed \"Change API key\" and \"Set public address\" node shortcuts\n- Fixed issue with transacting from non-master addresses\n- Fixed that some data stopped updating after node restart\n- Localized date formats\n- Added Portuguese translation"
+	"version": "1.5.0",
+	"versionCode": 6,
+	"dateReleased": "2022-12-24",
+	"changelog": "- Completely remade design (thanks to Nadi)\n- Derived addresses are now automatically restored\n- The rare case of some wallets having different addresses in different wallet programs is handled\n- Setup can be fully navigated using keyboard now\n- Auto-update feature for node\n- Users can load a custom stylesheet to modify the user interface design"
 }
