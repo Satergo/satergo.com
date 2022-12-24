@@ -55,7 +55,7 @@ const Hero = ({
 							</p>
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
-									<Button tag="a" color="primary" wideMobile href="https://t.me/SatergoWallet">
+									<Button tag="a" color="primary" wideMobile href="https://t.me/Satergo">
 										Telegram
 										</Button>
 									<Button tag="a" color="dark" wideMobile href="https://github.com/Satergo/Satergo">

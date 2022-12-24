@@ -1,4 +1,15 @@
-# v1.4.1
+# v1.5.0
+- Completely remade design (thanks to Nadi)
+- Completely remade design (this is big enough to be mentioned twice)
+- Derived addresses are now automatically restored
+- The rare case of some wallets having different addresses in different wallet programs is handled
+- Setup can be fully navigated using keyboard now
+- Auto-update feature for node
+- Users can load a custom stylesheet to modify the user interface design
+
+<details>
+	<summary><h1 style="display: inline;">v1.4.1</h1></summary>
+
 - Fixed node updating on Windows
 - Sending is now properly disallowed until the node has synced
 - Added a Fetch IP button to the "Set public address" node shortcut
@@ -16,6 +27,8 @@
 - Explorer API can now be changed from system properties (`satergo.mainnetExplorerApi`)
 - "Set public address" correctly writes IPv6 addresses (even though the node does not support reading them yet, [pull request](https://github.com/ergoplatform/ergo/pull/1806) submitted)
 - Fixed transacting on testnet
+
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v1.4.0</h1></summary>

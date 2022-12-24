@@ -48,7 +48,7 @@ const DownloadsTiles = ({
 
 	const sectionHeader = {
 		title: 'Downloads',
-		paragraph: 'Version: 1.4.1, released: 13 August, 2022. Portable runtimes (extract everything and execute the run file)'
+		paragraph: 'Version: 1.5.0, released: 24 December, 2022. Portable runtimes (extract everything and execute the run file)'
 	};
 
 	return (
@@ -75,7 +75,7 @@ const DownloadsTiles = ({
 								<div className="downloads-tiles-item-content">
 									<h4 className="mt-0 mb-8">Windows 64-bit</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.4.1/Satergo-v1.4.1-windows-x64.zip">Download (x64)</a>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.5.0/Satergo-v1.5.0-windows-x64.zip">Download (x64)</a>
 									</p>
 								</div>
 							</div>
@@ -94,8 +94,8 @@ const DownloadsTiles = ({
 								<div className="downloads-tiles-item-content">
 									<h4 className="mt-0 mb-8">Linux 64-bit</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.4.1/Satergo-v1.4.1-linux-x64.zip">Download (x64)</a>
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.4.1/Satergo-v1.4.1-linux-aarch64.zip">Download (aarch64)</a>
+										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.5.0/Satergo-v1.5.0-linux-x64.zip">Download (x64)</a>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.5.0/Satergo-v1.5.0-linux-aarch64.zip">Download (aarch64)</a>
 									</p>
 								</div>
 							</div>
@@ -116,7 +116,7 @@ const DownloadsTiles = ({
 									macOS 64-bit
 										</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.4.1/Satergo-v1.4.1-mac-x64.zip">Download</a>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.5.0/Satergo-v1.5.0-mac-x64.zip">Download</a>
 									</p>
 								</div>
 							</div>

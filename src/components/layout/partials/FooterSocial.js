@@ -30,7 +30,7 @@ const FooterSocial = ({
 					</a>
 				</li>
 				<li>
-					<a href="https://t.me/SatergoWallet">
+					<a href="https://t.me/Satergo">
 						<svg
 							width="16"
 							height="16"
