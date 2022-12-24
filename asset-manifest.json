@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cd73593.css",
-    "main.js": "/static/js/main.47843149.js",
+    "main.css": "/static/css/main.5cf1c58e.css",
+    "main.js": "/static/js/main.e091e7f2.js",
     "static/media/node_overview.png": "/static/media/node_overview.9d36b4aacbb6a16ee0a6.png",
     "static/media/start.png": "/static/media/start.2f84c0795598ca5f5010.png",
     "static/media/account.png": "/static/media/account.5ebe08c737581417fb78.png",
@@ -11,11 +11,11 @@
     "static/media/apple.svg": "/static/media/apple.f9f73c1cc05691f224b3943eee64813a.svg",
     "index.html": "/index.html",
     "static/media/windows.svg": "/static/media/windows.f3b7d863031ef132ea63532d1491306b.svg",
-    "main.0cd73593.css.map": "/static/css/main.0cd73593.css.map",
-    "main.47843149.js.map": "/static/js/main.47843149.js.map"
+    "main.5cf1c58e.css.map": "/static/css/main.5cf1c58e.css.map",
+    "main.e091e7f2.js.map": "/static/js/main.e091e7f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd73593.css",
-    "static/js/main.47843149.js"
+    "static/css/main.5cf1c58e.css",
+    "static/js/main.e091e7f2.js"
   ]
 }
