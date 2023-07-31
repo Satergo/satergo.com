@@ -1,8 +1,31 @@
-# v1.5.1
+# v1.6.0
+
+- DeFi/dApp support (ErgoPay)
+- Installer for Windows users
+- All fiat currency conversions with CoinGecko
+- Button to refresh the transaction history
+- VM arguments for the node. You can limit RAM, debug, etc.
+- Wallets that received large transactions can now display the transaction history and do not take a few seconds to open
+- Fixed the node log level functionality (it broke with an Ergo node update) which was always on level INFO and that caused freezes and lag
+- Added Indonesian & Malaysian translations
+- Improved screen reader support (for blind people)
+- Styling fixes
+
+<details>
+	<summary><h1 style="display: inline;">v1.5.1</h1></summary>
+
+Release date: 24 Dec 2022
+
 - Small but important fixes
 - Small design improvements
 
-# v1.5.0
+</details>
+
+<details>
+	<summary><h1 style="display: inline;">v1.5.0</h1></summary>
+
+Release date: 24 Dec 2022
+
 - Completely remade design (thanks to Nadi)
 - Completely remade design (this is big enough to be mentioned twice)
 - Derived addresses are now automatically restored
@@ -11,8 +34,12 @@
 - Auto-update feature for node
 - Users can load a custom stylesheet to modify the user interface design
 
+</details>
+
 <details>
 	<summary><h1 style="display: inline;">v1.4.1</h1></summary>
+
+Release date: 13 Aug 2022
 
 - Fixed node updating on Windows
 - Sending is now properly disallowed until the node has synced
@@ -37,6 +64,8 @@
 <details>
 	<summary><h1 style="display: inline;">v1.4.0</h1></summary>
 
+Release date: 20 Jul 2022
+
 - Added offline mode to manage addresses, the mnemonic and the password
 - Chart excludes incorrect CoinGecko data from before mainnet started
 - Sync progress now shows block progress after headers finish syncing
@@ -50,6 +79,8 @@
 
 <details>
 	<summary><h1 style="display: inline;">v0.0.3</h1></summary>
+
+Release date: 22 Jun 2022
 
 - Program is 50% smaller
 - Node operations (setting API key & public address, opening .conf file, unlocking)
@@ -70,6 +101,8 @@
 
 <details>
 	<summary><h1 style="display: inline;">v0.0.2</h1></summary>
+
+Release date: 31 Dec 2021
 
 - Sending from derived addresses
 - Balance includes derived addresses

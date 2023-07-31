@@ -1,6 +1,6 @@
 {
-	"version": "1.5.1",
-	"versionCode": 7,
-	"dateReleased": "2022-12-24",
-	"changelog": "1.5.0:\n- Completely remade design (thanks to Nadi)\n- Derived addresses are now automatically restored\n- The rare case of some wallets having different addresses in different wallet programs is handled\n- Setup can be fully navigated using keyboard now\n- Auto-update feature for node\n- Users can load a custom stylesheet to modify the user interface design\n\n1.5.1:\n- Small but important fixes\n- Small design improvements"
+	"version": "1.6.0",
+	"versionCode": 8,
+	"dateReleased": "2023-07-31",
+	"changelog": "- DeFi/dApp support (ErgoPay)\n- Installer for Windows users\n- All fiat currency conversions with CoinGecko\n- Button to refresh the transaction history\n- VM arguments for the node. You can limit RAM, debug, etc.\n- Wallets that received large transactions can now display the transaction history and do not take a few seconds to open\n- Fixed the node log level functionality (it broke with an Ergo node update) which was always on level INFO and that caused freezes and lag\n- Added Indonesian & Malaysian translations\n- Improved screen reader support (for blind people)\n- Styling fixes"
 }
