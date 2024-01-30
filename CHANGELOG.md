@@ -1,4 +1,19 @@
-# v1.6.0
+# v1.7.0
+
+Release date: 30 Jan 2024
+
+- Light node support
+- Chained transactions
+- Sending tokens without specifying ERG
+- Copy transaction ID (history)
+- Total tokens in a transaction (history)
+- Support for sending to stealth addresses
+- Improved design
+
+<details>
+	<summary><h1 style="display: inline;">v1.6.0</h1></summary>
+
+Release date: 31 July 2023
 
 - DeFi/dApp support (ErgoPay)
 - Installer for Windows users
@@ -10,6 +25,8 @@
 - Added Indonesian & Malaysian translations
 - Improved screen reader support (for blind people)
 - Styling fixes
+
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v1.5.1</h1></summary>
