@@ -134,10 +134,6 @@ const Header = ({
 											<div className="donation-row">
 												<div className="donation-address invert-color"><b>Monero:</b> 82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH</div> <button className="button button-sm" data-copy="82pTXa9pXyee7Ft81sGnK8c6XK3qKf2FzWbgUFrPJGdART4krBcsXkCKeBX5TQRxBr9ryhdPyHa5wGBr37Em2SSgP4u9MmH">copy</button>
 											</div>
-
-											<div className="donation-row">
-												<div className="donation-address invert-color"><b>Bitcoin:</b> bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us</div> <a className="button button-sm" href="https://mempool.space/address/bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">explorer</a> <button className="button button-sm" data-copy="bc1qcn833ty7fhp84ed22kvateckq08ffhp627q3us">copy</button>
-											</div>
 										</Modal>
 									</ul>
 								</div>
