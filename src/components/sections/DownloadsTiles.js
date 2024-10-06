@@ -117,7 +117,7 @@ const DownloadsTiles = ({
 									macOS 64-bit
 										</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-x64.zip">Download (x64 "Intel")</a><br/>
+										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-x64.zip">Download (x64 "Intel")</a><br/>
 										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-aarch64.zip">Download (aarch64 "Apple Silicon")</a><br/>
 										<a style={{textDecoration: "underline"}} target="_blank" rel="noopener" href="https://github.com/Satergo/Satergo/wiki/Running-on-Mac-OS">Instructions</a>
 									</p>
