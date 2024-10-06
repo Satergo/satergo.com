@@ -1,6 +1,6 @@
 {
-	"version": "1.7.0",
-	"versionCode": 9,
-	"dateReleased": "2024-01-30",
-	"changelog": "- Light node support\n- Chained transactions\n- Sending tokens without specifying ERG\n- Copy transaction ID\n- Total tokens in a transaction\n- Support for sending to stealth addresses\n- Improved design"
+	"version": "New version",
+	"versionCode": 10,
+	"dateReleased": "2024-10-06",
+	"changelog": "Your version is too old to view the information about this update. Update as soon as possible."
 }

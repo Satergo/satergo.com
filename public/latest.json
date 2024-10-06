@@ -1,6 +1,6 @@
 {
-	"version": "1.7.0",
-	"versionCode": 9,
-	"dateReleased": "2024-01-30",
-	"changelog": "- Light node support\n- Chained transactions\n- Sending tokens without specifying ERG\n- Copy transaction ID\n- Total tokens in a transaction\n- Support for sending to stealth addresses\n- Improved design"
+	"version": "1.8.0",
+	"versionCode": 10,
+	"dateReleased": "2024-10-06",
+	"changelog": "- Tools: Airdrop, consolidate UTXOs, burn tokens, and transact everything\n- Sending just tokens is cheaper now\n- Token prices from ErgoDEX\n- Multiple outputs for a single transaction\n- View passwords while entering them\n- Improved transaction history\n- Remote node connection test\n- New translation: Javanese\n- Improved accessibility\n- Bug fixes"
 }

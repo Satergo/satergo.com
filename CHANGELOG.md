@@ -1,4 +1,20 @@
-# v1.7.0
+# v1.8.0
+
+Release date: 6 Oct 2024
+
+- Tools: Airdrop, consolidate UTXOs, burn tokens, and transact everything
+- Sending just tokens is cheaper now
+- Token prices from ErgoDEX
+- Multiple outputs for a single transaction
+- View passwords while entering them
+- Improved transaction history
+- Remote node connection test
+- New translation: Javanese
+- Improved accessibility
+- Bug fixes
+
+<details>
+	<summary><h1 style="display: inline;">v1.7.0</h1></summary>
 
 Release date: 30 Jan 2024
 
@@ -9,6 +25,8 @@ Release date: 30 Jan 2024
 - Total tokens in a transaction (history)
 - Support for sending to stealth addresses
 - Improved design
+
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v1.6.0</h1></summary>

@@ -48,7 +48,7 @@ const DownloadsTiles = ({
 
 	const sectionHeader = {
 		title: 'Downloads',
-		paragraph: 'Version: 1.7.0, released: 30 January, 2024. For portable runtimes, extract everything and execute the run file'
+		paragraph: 'Version: 1.8.0, released: 6 October 2024. For portable runtimes, extract everything and execute the run file'
 	};
 
 	return (
@@ -75,8 +75,8 @@ const DownloadsTiles = ({
 								<div className="downloads-tiles-item-content">
 									<h4 className="mt-0 mb-8">Windows 64-bit</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.7.0/Satergo-v1.7.0-windows-x64.msi">Installer (x64)</a><br/>
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.7.0/Satergo-v1.7.0-windows-x64-portable.zip">Portable (x64)</a>
+										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64.msi">Installer (x64)</a><br/>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64-portable.zip">Portable (x64)</a>
 									</p>
 								</div>
 							</div>
@@ -95,8 +95,8 @@ const DownloadsTiles = ({
 								<div className="downloads-tiles-item-content">
 									<h4 className="mt-0 mb-8">Linux 64-bit</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.7.0/Satergo-v1.7.0-linux-x64.zip">Download (x64)</a><br/>
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.7.0/Satergo-v1.7.0-linux-aarch64.zip">Download (aarch64)</a>
+										<a className="button button-sm mb-8" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-x64.zip">Download (x64)</a><br/>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-aarch64.zip">Download (aarch64)</a>
 									</p>
 								</div>
 							</div>
@@ -117,7 +117,8 @@ const DownloadsTiles = ({
 									macOS 64-bit
 										</h4>
 									<p className="m-0 text-sm">
-										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.7.0/Satergo-v1.7.0-mac-x64.zip">Download</a><br/>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-x64.zip">Download (x64 "Intel")</a><br/>
+										<a className="button button-sm" href="https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-aarch64.zip">Download (aarch64 "Apple Silicon")</a><br/>
 										<a style={{textDecoration: "underline"}} target="_blank" rel="noopener" href="https://github.com/Satergo/Satergo/wiki/Running-on-Mac-OS">Instructions</a>
 									</p>
 								</div>
