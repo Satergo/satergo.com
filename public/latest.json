@@ -2,5 +2,25 @@
 	"version": "1.8.0",
 	"versionCode": 10,
 	"dateReleased": "2024-10-06",
-	"changelog": "- Tools: Airdrop, consolidate UTXOs, burn tokens, and transact everything\n- Sending just tokens is cheaper now\n- Token prices from ErgoDEX\n- Multiple outputs for a single transaction\n- View passwords while entering them\n- Improved transaction history\n- Remote node connection test\n- New translation: Javanese\n- Improved accessibility\n- Bug fixes"
+	"changelog": "- Tools: Airdrop, consolidate UTXOs, burn tokens, and transact everything\n- Sending just tokens is cheaper now\n- Token prices from ErgoDEX\n- Multiple outputs for a single transaction\n- View passwords while entering them\n- Improved transaction history\n- Remote node connection test\n- New translation: Javanese\n- Improved accessibility\n- Bug fixes",
+	"downloads": {
+		"installer": {
+			"win": {
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64.msi"
+			}
+		},
+		"portable": {
+			"win": {
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64-portable.zip"
+			},
+			"linux": {
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-x64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-aarch64.zip"
+			},
+			"mac": {
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-x64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-aarch64.zip"
+			}
+		}
+	}
 }
