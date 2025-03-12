@@ -1,6 +1,6 @@
 # v1.9.0
 
-Release date: 12 Mar 2024
+Release date: 12 Mar 2025
 
 - Ledger hardware wallet support
 - Satergo Offline Vault: an Android application for storing your wallet securely
