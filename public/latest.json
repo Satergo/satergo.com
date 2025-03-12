@@ -1,25 +1,25 @@
 {
-	"version": "1.8.0",
-	"versionCode": 10,
-	"dateReleased": "2024-10-06",
-	"changelog": "- Tools: Airdrop, consolidate UTXOs, burn tokens, and transact everything\n- Sending just tokens is cheaper now\n- Token prices from ErgoDEX\n- Multiple outputs for a single transaction\n- View passwords while entering them\n- Improved transaction history\n- Remote node connection test\n- New translation: Javanese\n- Improved accessibility\n- Bug fixes",
+	"version": "1.9.0",
+	"versionCode": 11,
+	"dateReleased": "2025-03-12",
+	"changelog": "- Ledger hardware wallet support\n- Satergo Offline Vault: an Android application for storing your wallet securely\n- Update functionality (instead of just opening the website)\n- More secure wallet format\n- Bug fixes",
 	"downloads": {
 		"installer": {
 			"win": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64.msi"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-windows-amd64.msi"
 			}
 		},
 		"portable": {
 			"win": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-windows-x64-portable.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-windows-amd64-portable.zip"
 			},
 			"linux": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-x64.zip",
-				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-linux-aarch64.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-linux-amd64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-linux-aarch64.zip"
 			},
 			"mac": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-x64.zip",
-				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.8.0/Satergo-v1.8.0-mac-aarch64.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-mac-amd64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-mac-aarch64.zip"
 			}
 		}
 	}
