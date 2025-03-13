@@ -1,25 +1,25 @@
 {
-	"version": "1.9.0",
-	"versionCode": 11,
-	"dateReleased": "2025-03-12",
-	"changelog": "- Ledger hardware wallet support\n- Satergo Offline Vault: an Android application for storing your wallet securely\n- Update functionality (instead of just opening the website)\n- More secure wallet format\n- Bug fixes",
+	"version": "1.9.1",
+	"versionCode": 12,
+	"dateReleased": "2025-03-13",
+	"changelog": "- Ledger hardware wallet support\n- Satergo Offline Vault: an Android application for storing your wallet securely\n- Update functionality (instead of just opening the website)\n- More secure wallet format\n- Bug fixes\n- (v1.9.1) Fixed creating wallets",
 	"downloads": {
 		"installer": {
 			"win": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-windows-amd64.msi"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-windows-amd64.msi"
 			}
 		},
 		"portable": {
 			"win": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-windows-amd64-portable.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-windows-amd64-portable.zip"
 			},
 			"linux": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-linux-amd64.zip",
-				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-linux-aarch64.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-linux-amd64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-linux-aarch64.zip"
 			},
 			"mac": {
-				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-mac-amd64.zip",
-				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.0/Satergo-v1.9.0-mac-aarch64.zip"
+				"amd64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-mac-amd64.zip",
+				"aarch64": "https://github.com/Satergo/Satergo/releases/download/v1.9.1/Satergo-v1.9.1-mac-aarch64.zip"
 			}
 		}
 	}
