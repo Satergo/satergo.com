@@ -1,3 +1,9 @@
+# v1.9.1
+
+Release date: 13 Mar 2025
+
+- Bug fix (creating wallets did not work)
+
 # v1.9.0
 
 Release date: 12 Mar 2025
