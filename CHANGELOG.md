@@ -1,3 +1,9 @@
+# v1.9.2
+
+Release date: 27 May 2025
+
+- Bug fix: Satergo Offline Vault
+
 # v1.9.1
 
 Release date: 13 Mar 2025
