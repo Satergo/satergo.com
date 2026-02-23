@@ -1,16 +1,31 @@
-# v1.9.2
+# v1.9.3
+
+Release date: 23 Feb 2026
+
+- Improved transaction history (performance, filtering, copying)
+- Many small improvements
+- Removed token prices
+
+<details>
+	<summary><h1 style="display: inline;">v1.9.2</h1></summary>
 
 Release date: 27 May 2025
 
 - Bug fix: Satergo Offline Vault
 
-# v1.9.1
+</details>
+
+<details>
+	<summary><h1 style="display: inline;">v1.9.1</h1></summary>
 
 Release date: 13 Mar 2025
 
 - Bug fix (creating wallets did not work)
 
-# v1.9.0
+</details>
+
+<details>
+	<summary><h1 style="display: inline;">v1.9.0</h1></summary>
 
 Release date: 12 Mar 2025
 
@@ -19,6 +34,8 @@ Release date: 12 Mar 2025
 - Update functionality (instead of just opening the website)
 - More secure wallet format
 - Bug fixes
+
+</details>
 
 <details>
 	<summary><h1 style="display: inline;">v1.8.0</h1></summary>
@@ -56,7 +73,7 @@ Release date: 30 Jan 2024
 <details>
 	<summary><h1 style="display: inline;">v1.6.0</h1></summary>
 
-Release date: 31 July 2023
+Release date: 31 Jul 2023
 
 - DeFi/dApp support (ErgoPay)
 - Installer for Windows users
