@@ -1,3 +1,10 @@
+# v1.9.4
+
+Release date: 23 May 2026
+
+- Fixed launching node
+- Improved send options input address candidates labels
+
 # v1.9.3
 
 Release date: 23 Feb 2026
